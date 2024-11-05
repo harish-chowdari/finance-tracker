@@ -1,0 +1,78 @@
+.container {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .chartContainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    max-width: 600px;
+    height: 400px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .thead {
+    color: white;
+  }
+  
+  .tr {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+  }
+  
+  .th, .td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .tbody .tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .td {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .th {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .td:nth-child(2) {
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  .td:nth-child(3) {
+    font-style: italic;
+  }
+  
+  
