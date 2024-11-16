@@ -53,7 +53,9 @@ const Login = () => {
       <form className={styles.container} onSubmit={handleSubmit}>
         <div className={styles.formContainer}>
           <h2>Login</h2>
+          <label htmlFor="email">Email</label>
           <input
+            id="email"
             placeholder="Email"
             type="email"
             name="email"
@@ -61,7 +63,9 @@ const Login = () => {
             value={login.email}
             className={styles.input}
           />
+          <label htmlFor="password">Password</label>
           <input
+            id="password"
             placeholder="Password"
             type="password"
             name="password"
@@ -71,14 +75,14 @@ const Login = () => {
           />
           <p className={styles.resetPassword}>
             Forget password? update{" "}
-            <Link to="/reset" className={styles.link}> here</Link>
+            <Link to="/reset" className={styles.hereLink}> here</Link>
           </p>
           <button type="submit" className={styles.button}>
             Submit
           </button>
           <p className={styles.text}>
             Don't have an account?{" "}
-            <Link to="/signup" className={styles.link}>Signup</Link>
+            <Link to="/signup" className={styles.signupLink}>Signup</Link>
           </p>
         </div>
       </form>

@@ -9,12 +9,12 @@ export const useColour = () => {
 const ColourProvider = (props) => {
   const [protanopia, setProtanopia] = useState({
     avoid: ["red", "green", "brown", "orange"],
-    use: ["blue", "yellow", "purple", "gray"],
+    use: ["blue", "#8A6D00", "purple", "#4D4D4D"],
   });
 
   const [deuteranopia, setDeuteranopia] = useState({
     avoid: ["red", "green", "brown", "orange"],
-    use: ["blue", "yellow", "purple", "gray"],
+    use: ["blue", "#8A6D00", "purple", "#4D4D4D"],
   });
 
   const [tritanopia, setTritanopia] = useState({

@@ -142,8 +142,8 @@ const FinanceTracker = () => {
             <table className={Styles.table}>
               <thead className={Styles.thead} style={{ backgroundColor: colorsToUse[3], color: 'white' }}>
                 <tr  className={Styles.tr}>
-                  <th className={Styles.th}>Category</th>
-                  <th className={Styles.th}>Total Amount</th>
+                  <th style={{ color:'#FFFFFF' }} className={Styles.th}>Category</th>
+                  <th style={{ color:'#FFFFFF' }} className={Styles.th}>Total Amount</th>
                 </tr>
               </thead>
               <tbody className={Styles.tbody}>

@@ -87,11 +87,11 @@ const ExpensesHistory = () => {
           style={{ backgroundColor: colorsToUse[3] }}
           className={Styles.thead}
         >
-          <tr className={Styles.tr}>
-            <th className={Styles.th}>Sl.No</th>
-            <th className={Styles.th}>Category</th>
-            <th className={Styles.th}>Amount</th>
-            <th className={Styles.th}>Date</th>
+          <tr  className={Styles.tr}>
+            <th style={{ color:'#FFFFFF' }} className={Styles.th}>Sl.No</th>
+            <th style={{ color:'#FFFFFF' }} className={Styles.th}>Category</th>
+            <th style={{ color:'#FFFFFF' }} className={Styles.th}>Amount</th>
+            <th style={{ color:'#FFFFFF' }} className={Styles.th}>Date</th>
           </tr>
         </thead>
 

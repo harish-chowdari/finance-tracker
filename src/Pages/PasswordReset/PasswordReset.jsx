@@ -75,7 +75,9 @@ const PasswordReset = () => {
       <form className={styles.container} onSubmit={handleSubmit}>
         <div className={styles.formContainer}>
           <h2>Password Reset</h2>
+          <label htmlFor="email">Email</label>
           <input
+            id="email"
             placeholder="Enter Your Email"
             type="email"
             name="email"
@@ -109,7 +111,7 @@ const PasswordReset = () => {
           </button>
           <p className={styles.passwordText}>
             Remember your password?{" "}
-            <Link to="/" className={styles.link}>
+            <Link to="/" className={styles.loginLink}>
               Login
             </Link>
           </p>

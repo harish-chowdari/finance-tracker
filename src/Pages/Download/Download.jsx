@@ -171,15 +171,17 @@ const Download = () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.selectContainer}>
-        <label className={Styles.label}>Select a date to download PDF:</label>
         <div className={Styles.inputContainer}>
+        <label htmlFor="date" className={Styles.label}>Select a date to download PDF:</label>
+
           <input
+            id="date"
             className={Styles.input}
             type="date"
             onChange={(e) => setSelectedDate(e.target.value)}
           />
 
-          <button style={{ backgroundColor: colorsToUse[1] }} className={Styles.downloadButton} onClick={downloadPDF}>
+          <button style={{ backgroundColor: colorsToUse[1], color: "#FFFFFF" }} className={Styles.downloadButton} onClick={downloadPDF}>
             Download PDF
           </button>
         </div>
@@ -199,10 +201,10 @@ const Download = () => {
       <table className={Styles.table}>
         <thead style={{ backgroundColor: colorsToUse[3] }} className={Styles.thead}>
           <tr className={Styles.tr}>
-            <th className={Styles.th}>Sl.No</th>
-            <th className={Styles.th}>Category</th>
-            <th className={Styles.th}>Amount</th>
-            <th className={Styles.th}>Date</th>
+            <th style={{ color:'#FFFFFF' }} className={Styles.th}>Sl.No</th>
+            <th style={{ color:'#FFFFFF' }} className={Styles.th}>Category</th>
+            <th style={{ color:'#FFFFFF' }} className={Styles.th}>Amount</th>
+            <th style={{ color:'#FFFFFF' }} className={Styles.th}>Date</th>
           </tr>
         </thead>
 

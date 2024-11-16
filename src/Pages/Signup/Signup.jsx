@@ -105,7 +105,9 @@ const Signup = () => {
         <h2>Signup</h2>
 
         <div>
+        <label htmlFor="name">Name:</label>
           <input
+            id="name"
             placeholder="Enter Your Name"
             type="text"
             name="name"
@@ -115,7 +117,9 @@ const Signup = () => {
           />
         </div>
         <div>
+        <label htmlFor="email">Email:</label>
           <input
+            id="email"
             placeholder="Enter Your Email"
             type="email"
             name="email"
@@ -125,7 +129,9 @@ const Signup = () => {
           />
         </div>
         <div>
+        <label htmlFor="password">Password:</label>
           <input
+            id="password"
             placeholder="Enter Your Password"
             type="password"
             name="password"
@@ -136,7 +142,9 @@ const Signup = () => {
         </div>
 
         <div>
+        <label htmlFor="confirmPassword">Confirm Password:</label>
           <input
+            id="confirmPassword"
             placeholder="Confirm Your Password"
             type="password"
             name="confirmPassword"
@@ -169,7 +177,7 @@ const Signup = () => {
         </button>
         <p className={styles.text}>
           Already have an account?{" "}
-          <Link to="/" className={styles.link}>
+          <Link to="/" className={styles.loginLink}>
             Login
           </Link>
         </p>
