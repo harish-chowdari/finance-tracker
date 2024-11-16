@@ -158,8 +158,9 @@ const Signup = () => {
           <h4 className={styles.colorHeading}>Select a disease</h4>
           <div className={styles.colorDiv}>
             {optionNumbers.map((option) => (
-              <label key={option} className={styles.radioLabel}>
+              <label htmlFor={option} key={option} className={styles.radioLabel}>
                 <input
+                  id={option}
                   type="radio"
                   name="diseases"
                   value={option}
